@@ -4,7 +4,7 @@ import style from './TodoFooter.module.css'
 
 const TodoFooter = props => {
   return (
-    <div className={style.todoFooter}>
+    <div className={style.todoFooter} data-testid='todo-footer-element'>
         { !props.todoLength &&
             <p>Awesome!! You have free time!!</p>
         }
